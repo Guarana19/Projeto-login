@@ -35,6 +35,8 @@ section#login{
     overflow: hidden;
     box-shadow: 0 0 20px black;
 
+    transition: width 1s, height 1s;
+
 }
 
 section#login > div#imagem{
