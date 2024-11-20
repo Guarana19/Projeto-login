@@ -3,37 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    
     <title>Document</title>
 </head>
 <body>
     <main>
-        <section id="login">
-            <div id="imagem">
+        <section>
+            <div class="bloco-1">
+                <h1>Seja bem indo novamente</h1>
+            </div><!--bloco-1-->
 
-            </div><!--imagem-->
-                    
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem vindo novamente. Faça Login para acessar</p>
-                <form action="" method="post" autocomplete="on">
-                    <div class="campo">
-                        <span class="material-symbols-outlined">email</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required maxlength="30">
-                        <label for="ilogin">Login</label>
-                    </div>
-                    <div class="campo">
-                        <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="50">
-                        <label for="isenha">Senha</label>
-                    </div>
-                    <input type="submit" value="Entrar">
-                    <a href="" class="botao">Esqueci a Senha</a>
+            <div class="bloco-2">
+                <img src="imagens/Login_Icon-removebg.png" alt="">
+                
+                <form action="" method="post">
+                    <input type="text" name="nome" id="iname" placeholder="Usuario" size="10">
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" >
+                    <input type="submit" value="Login">
                 </form>
-            </div>
+            </div><!--bloco-2-->
         </section>
     </main>
+
+    
 </body>
 </html>

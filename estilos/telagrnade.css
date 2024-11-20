@@ -1,0 +1,26 @@
+@media screen and (min-width: 700px) {
+    
+    section{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 80vh;
+        margin: 60px auto;
+        padding: 0px;
+    }
+
+    div.bloco-1{
+        background-color: antiquewhite;
+        background: black url(../imagens/layers-black-torn-paper.jpg) center left no-repeat;
+        background-size: cover;
+        width: 50%;
+        
+        
+    }
+
+    div.bloco-1 h1{
+        font-size: 2em;
+        color: white;
+    }
+
+}
